@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+.nav img {
+    background-color: #293e46;
+    padding: 3px;
+    border-radius: 50%;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.nav ul {
+    font-size: 3;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.nav li {
+    float: right;
+}
+.nav li a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    display: block;
+    color: #293e46;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: #c5cacd;
+}
+/* masuk bagian profil */
+.profil {
+    padding: 0;
+    padding-top: 0;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+.profil h1 {
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+    font-size: 110px;
+    margin: 0 auto;
+    color: #293e46; 
+}
+.profil h2 {
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 auto;
+    color: #293e46;
+}
+.wallpaper {
+    margin-top: 100px;
+    width: 550px;
+    height: 450px;
+}
+.hi {
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    margin-top: 30px;
+}
+.hi input[type=checkbox] {
+    display: none;
+} 
+.hi input[type=checkbox]:checked ~ label > img {
+    transform: scale(2);
+    cursor: zoom-out;
+}
+.hi img {
+    background-color: #293e46;
+    padding: 5px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+.hi h2 {
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #293e46;
+}
+.hi p {
+    font-family: 'Barlow', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    color: #293e46;
+}
+
+/* bagian bawah profil diri */
+.riwayat {
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.riwayat h1 {
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #293e46;
+}
+.riwayat h4 {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    color: #293e46;
+}
+.riwayat img {
+    background-color: #293e46;
+    padding: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.riwayat h4 {
+    margin: 60px 0 0 0;
+    color: #293e46;
+}
+.riwayat p {
+    font-family: 'Barlow', sans-serif;
+    margin: 20px 0 0 0;
+    color: #293e46;
+}
+/* masuk ke sub */
+.pendidikan {
+    font-family: 'Anonymous Pro', monospace;
+    text-align: left;
+    margin: 70px auto;
+}
+.pendidikan img {
+    margin-right: 50px;
+    float: left;
+}
+.organisasi {
+    text-align: left;
+    margin: 120px auto;
+}
+.organisasi img {
+    margin-left: 50px;
+    float: right;
+}
+.kompetensi {
+    text-align: left;
+    margin: 120px auto;
+}
+.kompetensi img {
+    margin-right: 50px;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    background-color: #7c949c;
+    padding: 30px;
+}
+footer a{
+    text-decoration: none;
+}
+
+.navbawah {
+    margin-bottom: 15px;
+}
+.navbawah a {
+    font-family: 'Barlow', sans-serif;
+    color: #293e46;
+    padding: 10px;
+    font-size: 20px;
+    margin: 8px 5px;
+}
+.navbawah a:hover {
+    background-color: #efefef;
+}
+.link a {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 8px 10px;
+}
+.link a:hover {
+    background-color: #293e46;
+}
